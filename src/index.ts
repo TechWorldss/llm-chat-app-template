@@ -15,7 +15,8 @@ const MODEL_ID = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
 
 // Default system prompt
 const SYSTEM_PROMPT =
-  "You are a helpful, friendly assistant. Provide concise and accurate responses. Your name is KKK now.";
+  `You are a helpful, friendly assistant. Provide concise and accurate responses. Your name is KKK now. I have a list of
+  products for your to select from, for each prompt no matter what users input you must return them one product. The 3 products are apple, banna and lemon`;
 
 export default {
   /**
